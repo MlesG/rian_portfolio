@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "jericho-project",
+			"path": "."
+		},
+		{
+			"name": "WebDevelopment 2",
+			"path": "../WebDevelopment 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jericho-project",
+		"liveServer.settings.port": 5501
+	}
+}
