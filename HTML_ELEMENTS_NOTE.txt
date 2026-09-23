@@ -1,0 +1,151 @@
+HTML ELEMENTS AND ATTRIBUTES NOTE
+==================================
+
+Project folder: Maganito_3B_Portfolio
+Website name: Rian Personal Portfolio
+
+The project contains four HTML pages:
+- index.html: Home page
+- music.html: Favorite music page
+- movies.html: Favorite movies page
+- pictures.html: Pictures page
+
+There is no JavaScript, database, or backend code in this project. The pages mainly use HTML elements and attributes to organize and display content.
+
+HTML ELEMENTS AND THEIR PURPOSES
+--------------------------------
+
+<!DOCTYPE html>
+Tells the browser that the document uses HTML5.
+
+<html>
+The root element that contains the entire webpage.
+
+<head>
+Contains page information and settings that are not displayed as main content.
+
+<meta charset="UTF-8">
+Allows the pages to display characters and symbols such as the heart, arrow, and star symbols.
+
+<meta name="viewport">
+Helps the pages adjust to different screen sizes, especially mobile screens.
+
+<meta name="description">
+Provides a description of the website. This is used on the Home page.
+
+<title>
+Sets the title shown in the browser tab.
+
+<body>
+Contains all visible content on the page.
+
+<header>
+Contains the website title, horizontal line, and navigation menu.
+
+<h1>
+Displays the main heading of a page.
+
+<h2>
+Displays headings for content items, such as song, movie, and picture titles.
+
+<h3>
+Displays smaller headings for the feature cards on the Home page.
+
+<nav>
+Groups the main navigation links: Home, Music, Movies, and Pictures.
+
+<a>
+Creates a clickable link. It is used for links between the portfolio pages and links to YouTube.
+
+<main>
+Contains the primary content of each page.
+
+<section>
+Groups related content into sections.
+
+<article>
+Represents one individual content item, such as one song, movie, or picture.
+
+<div>
+Groups multiple elements together for organization and layout.
+
+<span>
+Groups or styles small pieces of text inside other elements.
+
+<p>
+Displays paragraphs, descriptions, captions, and other written content.
+
+<img>
+Displays song images, movie posters, and personal pictures from the assets/images folder.
+
+<em>
+Emphasizes text and normally displays it in italic style.
+
+<br>
+Creates a line break or adds vertical spacing.
+
+<hr>
+Creates a horizontal divider line.
+
+<footer>
+Contains the archive link and the page-specific tagline at the bottom of each page.
+
+COMMON ATTRIBUTES
+-----------------
+
+class
+Names an element or group of elements so it can be styled or identified.
+
+href
+Specifies the destination of a link.
+
+src
+Specifies the location of a local image.
+
+alt
+Provides alternative text describing an image. This supports accessibility when an image cannot be viewed.
+
+width
+Sets the width of an image.
+
+height
+Sets the height of an image.
+
+target="_blank"
+Opens a link in a new browser tab.
+
+rel="noreferrer"
+Adds a privacy and security setting when opening an external link.
+
+aria-label
+Provides an accessible name or description for an element.
+
+aria-hidden="true"
+Hides decorative content from screen readers.
+
+DATA TYPES REPRESENTED IN THE HTML
+-----------------------------------
+
+Text/String data:
+Titles, headings, descriptions, captions, and navigation labels.
+
+URL data:
+Internal page links and external YouTube links.
+
+File path data:
+Locations of local images, such as assets/images/puso.jpg.
+
+Number data:
+Image dimensions, such as width="250" and height="250".
+
+Boolean data:
+Attributes such as allowfullscreen. When the attribute is present, the feature is enabled.
+
+CSS class name data:
+Names such as site-header, movie-card, and picture-card used to organize page elements.
+
+Accessibility data:
+Descriptions provided by alt, title, and aria-label attributes.
+
+Media data:
+JPG and PNG image files are stored in the assets folder. The HTML pages use local images and normal external YouTube links that open in a new browser tab.
